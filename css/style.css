@@ -1,0 +1,158 @@
+/*General styles ---- START*/
+
+* {
+	box-sizing: border-box;
+	
+}
+
+body {
+	font-family: 'Roboto', "sans-serif";
+	background-color: #f2f2f2;
+	overflow-x: hidden;
+}
+
+span {
+	font-weight: 500;
+}
+
+section {
+	text-align: center;
+	position: relative;
+	width: 700;
+	height: 135px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+#mainDiv {
+	max-width: 700px;
+	margin: auto;
+}
+
+
+/*General styles ---- STOP*/
+
+
+/* Header ----- START*/
+
+#mainDiv #mainHeader {
+	font-weight: 400;
+	font-size: 2em;
+	text-align: left;
+}
+
+
+/* Header ----- STOP*/
+
+
+/*Section input ---- START*/
+
+#input {
+	background-color: #fff;
+	padding: 15px;
+}
+
+#input h4 {
+	text-align: left;
+	color: #ada8a8;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1em;
+	margin: 0;
+}
+
+#input div {
+	width: 50%;
+	height: 80px;
+	float: left;
+}
+
+#input div input {
+	border: 2px solid #e6e6e6;
+	color: #000;
+	font-size: 2.5em;
+	margin: 0;
+	border-right: none;
+	height: 100%;
+	width: 100%;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 0;
+}
+
+#input div button {
+	border: 2px solid #e6e6e6;
+	border-left: none;
+	height: 100%;
+	width: 100%;
+	background-color: #01e0a8;
+	padding: 0;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+
+/*Section input---- STOP*/
+
+
+/* Section output --- START*/
+
+#div1 {
+	color: #807c7c;
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+#div2 {
+	padding: 10px 10px 40px;
+	font-size: 2.5em;
+}
+
+#div1,
+#div2 {
+	background-color: #fff;
+	text-align: center;
+	width: 300px;
+}
+
+#div3 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 1em;
+	color: #ada8a8;
+}
+
+#clock {
+	width: 15px;
+}
+
+
+/* Section output --- STOP*/
+
+
+/* Image HAT --- START*/
+
+#hat {
+	width: 130px;
+	height: 130px;
+	transform: rotate(20deg);
+	position: absolute;
+	right: -50px;
+	top: -15px;
+}
+
+.hat {
+	position: relative;
+	z-index: 1;
+	margin: auto;
+	max-width: 700px;
+}
+
+
+/* Image HAT --- STOP */
